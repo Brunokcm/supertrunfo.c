@@ -24,10 +24,10 @@ int numero_de_pontos_turisticos2;
 
 printf("Carta 1: \n");
 printf("digite o estado(ex de A a H):\n");
-scanf("%s", &estado1);
+scanf("%s", estado1);
 
 printf("digite o codigo(ex a01):\n");
-scanf(" %[^\n]s", &codigo1);
+scanf(" %[^\n]s", codigo1);
 
 printf("digite a cidade:\n");
 scanf(" %[^\n]s", cidade1);
@@ -46,13 +46,13 @@ scanf("%d", &numero_de_pontos_turisticos1);
 
 printf("Carta 2: \n");
 printf("digite o estado(ex de A a H):\n");
-scanf("%s", &estado2);
+scanf("%s", estado2);
 
 printf("digite o codigo(ex b01):\n");
-scanf("%s", &codigo2);
+scanf("%s", codigo2);
 
 printf("digite a cidade:\n");
-scanf(" %[^\n]s", &cidade2);
+scanf(" %[^\n]s", cidade2);
 
 printf("digite a populacao:\n");
 scanf("%d", &populacao2);
